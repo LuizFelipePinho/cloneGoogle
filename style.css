@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* esse pequeno codigo tira o efeito padrao nas bordas quando o input for clicado*/
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+
+body {
+    font-family: arial,sans-serif;
+}
+
+.cabecalho ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+.cabecalho ul li {
+    padding: 0.6rem;
+    font-size: 1rem;
+    align-self: center;
+
+}
+
+.imagemUsuario{
+    border-radius: 50%;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    height: 6em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.lupa {
+    padding: 0.8rem;
+    height: 0.1rem;
+
+}
+
+.pesquisa {
+    border-radius: 10em;
+    /*border-radius: 100px;*/
+    display: flex;
+    align-items: center;
+    width: 40em;
+    height: 3em;
+    border: 1px solid #dfe1e5;
+
+
+}
+
+
+.elementosPesquisa {
+    display: flex;
+    width: 38em;
+    height: 3em;
+    margin: auto;
+}
+
+.inputPesquisa {
+    width: 40em;
+    height: 2.2em;
+    border: 0 none;
+    font-size: 1.2rem;
+    padding-top: 0.3em;
+
+}
+
+.botoes {
+    margin-top: 1em;
+}
+
+.botoes input {
+    color: #3c4043;
+    padding: 0.5em;
+    margin: 1em 1em;
+    background-color: #f8f9fa;
+    border: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.idioma {
+    margin-top: 1em;
+    font-size: 0.7em;
+}
